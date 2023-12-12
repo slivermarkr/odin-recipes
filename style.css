@@ -1,11 +1,6 @@
-.link {
-    color: black;
+.buttons {
     font-size: 25px;
-    
-}
-a :hover {
-    text-decoration: none;
     color: black;
-    background-color: aqua;
-    
+    background-color: grey;
+    border-radius: 25px;
 }
