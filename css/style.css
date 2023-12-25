@@ -8,10 +8,7 @@ body{
     border-radius:25px;
     font-family: Arial, Helvetica, sans-serif;
 }
-div{
 
-    color: white;
-}
 a
 {
     text-decoration: none;
@@ -20,4 +17,39 @@ a
 li, h1 , h4, h3, p
 {
     color:white;
+}
+li{
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+.link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid white;
+    justify-content: center;
+    height: 800px;
+
+}
+.item1,
+.item2,
+.item3 {
+    border: 3px solid white;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 5px;
 }
