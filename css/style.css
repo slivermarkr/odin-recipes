@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: whitesmoke;
 }
 .buttons{
     font-size: 20px;
@@ -12,11 +12,11 @@ body{
 a
 {
     text-decoration: none;
-    color: aqua;
+    color: rosybrown;
 }
 li, h1 , h4, h3, p
 {
-    color:white;
+    color:black;
 }
 li{
     list-style-type: none;
@@ -26,6 +26,7 @@ li{
 .header {
     display: flex;
     justify-content: center;
+    color: black;
 }
 .link{
     display: flex;
@@ -33,14 +34,11 @@ li{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    text-align: center;
 }
-.content {
-    display: flex;
-    flex-direction: column;
-    border: 3px solid white;
-    justify-content: center;
-    height: 800px;
-
+.content{
+     border: 3px solid black;
+     height: 100vh;
 }
 .item1,
 .item2,
@@ -52,4 +50,10 @@ li{
     justify-content: center;
     align-items: flex-end;
     margin-bottom: 5px;
+}
+img {
+    width:300px;
+    height: 300px;
+    
+    
 }
