@@ -6,6 +6,7 @@ p,
 li{
     line-height: 2rem;
     color: rgba(0, 0, 0, .85);
+    letter-spacing: 0.06rem;
 }
 img{
     margin: 2rem 0rem;
