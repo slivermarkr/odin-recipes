@@ -1,0 +1,12 @@
+body{
+    width: 75ch;
+    margin: 3rem 10rem;
+}
+p,
+li{
+    line-height: 2rem;
+    color: rgba(0, 0, 0, .85);
+}
+img{
+    margin: 2rem 0rem;
+}
