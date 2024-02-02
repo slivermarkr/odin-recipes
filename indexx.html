@@ -20,20 +20,23 @@
             flex-direction: column;
         }
         .image-container {
-            border: 3px solid rgba(90, 87, 87, .6);
+
             width: 12rem;
             height: 12rem;
             align-self: center;
             margin-bottom: 1rem;
+            box-shadow: rgba(90, 87, 87, .6) 3px 5px 3px 2px;
         }
         a{
             text-decoration: none;
             font-size: 1.5rem;
+            color: rgba(0, 0,0, .75);
         }
         h1{
             text-align: center;
             margin-top: 2rem;
             font-size: 2rem;
+            color: rgba(0, 0,0, .75)
         }
         .monggo {
             background-image: url(./recipes/monggo.jpg);
@@ -53,6 +56,17 @@
             background-repeat: no-repeat;
             background-position: center;
         }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        .image-container:hover{
+            box-shadow: none;
+            width: 12.4rem;
+            height: 12.4rem;
+            border-radius: 5px;
+        }
+        
     </style>
 </head>
 <body>
@@ -62,15 +76,15 @@
     <main>
     <div class="container">
         <div class="recipe">
-            <div class="image-container monggo"></div>
+            <div data-monggo class="image-container monggo"></div>
             <a href="./recipes/monggo.html">Ginisang Monggo</a>
         </div>
         <div class="recipe">
-            <div class="image-container sinigang"></div>
+            <div data-sinigang class="image-container sinigang"></div>
             <a href="./recipes/sinigang.html">Sinigang na Baboy</a>
         </div>
         <div class="recipe">
-            <div class="image-container bilo-bilo"></div>
+            <div data-bilo class="image-container bilo-bilo"></div>
             <a href="./recipes/bilobilo.html">Bilo-bilo</a>
         </div>
     </div>
